@@ -52,7 +52,7 @@ $mail->Subject = 'Contato First (Série 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //
-$respostaHTML = montaConteudo($nome, $fone, $email, $cnpj,$sNome, $sTelefone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro);
+$respostaHTML = montaConteudo();
 
 $mail->msgHTML($respostaHTML, __DIR__);
 //Replace the plain text body with one created manually

@@ -3,11 +3,8 @@
 //Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
-
-$nome = $_GET['Nome'];
-$telefone = $_GET['Telefone'];
-$email = $_GET['Email'];
-$cnpj = $_GET['Cnpj'];
+require 'conteudo.php';
+require 'receptor.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;

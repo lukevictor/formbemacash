@@ -1,11 +1,8 @@
 <?php 
 
-
-
-$Nome     = $_GET['nome']; 
-$Cnpj     = $_GET['cnpj'];
-$Email    = $_GET['email'];
-$Telefone = $_GET['telefone'];
-
+$nome = $_GET['Nome'];
+$telefone = $_GET['Fone'];
+$email = $_GET['Email'];
+$cnpj = $_GET['Cnpj'];
 
 ?>

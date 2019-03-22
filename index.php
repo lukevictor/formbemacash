@@ -1,4 +1,5 @@
 <?php include 'receptor.php';?>
+
 <html>
 <head>
     <title>Contato Bemacash Gestão</title>

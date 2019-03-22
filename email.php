@@ -5,9 +5,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
 
 $nome = $_GET['Nome'];
-$nome = $_GET['Telefone'];
-$nome = $_GET['Email'];
-$nome = $_GET['Cnpj'];
+$telefone = $_GET['Telefone'];
+$email = $_GET['Email'];
+$cnpj = $_GET['Cnpj'];
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -54,7 +54,10 @@ $mail->addAddress('lucas.victor@totvs.com', 'John Doe');
 $mail->Subject = 'PHPMailer GMail SMTP test';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
-$mail->msgHTML('<p>'.$nome.'</p>', __DIR__);
+//
+$respostaHTML = montaConteudo($nome, $telefone, $email, $cnpj);
+
+$mail->msgHTML($respostaHTML, __DIR__);
 //Replace the plain text body with one created manually
 $mail->AltBody = $nome;
 //Attach an image file

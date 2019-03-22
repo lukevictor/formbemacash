@@ -52,7 +52,7 @@ $mail->Subject = 'PHPMailer GMail SMTP test';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //
-$respostaHTML = montaConteudo($nome, $telefone, $email, $cnpj);
+$respostaHTML = montaConteudo($nome, $fone, $email, $cnpj);
 
 $mail->msgHTML($respostaHTML, __DIR__);
 //Replace the plain text body with one created manually

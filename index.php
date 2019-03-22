@@ -17,19 +17,19 @@
 <form action="email.php" method="GET">
     <p >
 	<label for="Nome">Nome:</label>
-	<input type="text" name="Nome" size="35" class="campo" value=<?=$Nome ?>/>
+	<input type="text" name="nome" size="35" class="campo" value=<?=$nome ?>>
     </p>
     <p >
 	<label for="Email">E-mail:</label>
-	<input type="text" name="Email" size="35" class="campo" value=<?=$Email ?>/>
+	<input type="text" name="email" size="35" class="campo" value=<?=$email ?>>
     </p>
     <p >
 	<label for="Fone">Telefone:</label>
-	<input type="text" name="Fone" size="35" class="campo" value=<?=$Telefone ?>/>
+	<input type="text" name="fone" size="35" class="campo" value=<?=$fone ?>>
     </p>
     <p >
 	<label for="CNPJ">CNPJ/CPF:</label>
-	<input type="text" name="Cnpj" size="35" class="campo"value=<?=$Cnpj ?>/>
+	<input type="text" name="cnpj" size="35" class="campo"value=<?=$cnpj ?>>
     </p>
     <p >
 	<button type="submit"/> Enviar </button>

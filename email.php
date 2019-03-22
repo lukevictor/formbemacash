@@ -5,6 +5,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
 
 $nome = $_GET['Nome'];
+$nome = $_GET['Telefone'];
+$nome = $_GET['Email'];
+$nome = $_GET['Cnpj'];
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -60,12 +63,7 @@ $mail->AltBody = $nome;
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo "Message sent!";
-    //Section 2: IMAP
-    //Uncomment these to save your message in the 'Sent Mail' folder.
-    #if (save_mail($mail)) {
-    #    echo "Message saved!";
-    #}
+    header('Location: /obrigado.php');
 }
 //Section 2: IMAP
 //IMAP commands requires the PHP IMAP Extension, found at: https://php.net/manual/en/imap.setup.php

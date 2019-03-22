@@ -42,13 +42,13 @@ $mail->Username = "bemagestao2019@gmail.com";
 //Password to use for SMTP authentication
 $mail->Password = "gestao2019";
 //Set who the message is to be sent from
-$mail->setFrom('bemagestao2019@gmail.com', 'First Last');
+$mail->setFrom('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Set an alternative reply-to address
-$mail->addReplyTo('bemagestao2019@gmail.com', 'First Last');
+$mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Set who the message is to be sent to
-$mail->addAddress('lucas.victor@totvs.com', 'John Doe');
+$mail->addAddress('wilson.tedokon@totvs.com', 'Wilson Jorge Tedokon');
 //Set the subject line
-$mail->Subject = 'PHPMailer GMail SMTP test';
+$mail->Subject = 'Contato First (Série 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //

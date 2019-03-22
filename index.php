@@ -1,3 +1,4 @@
+<?php include 'receptor.php';?>
 <html>
 <head>
     <title>Contato Bemacash Gestão</title>
@@ -15,19 +16,19 @@
 <form action="email.php" method="post">
     <p >
 	<label for="Nome">Nome:</label>
-	<input type="text" name="Nome" size="35" class="campo"/>
+	<input type="text" name="Nome" size="35" class="campo" value=<?=$Nome ?>/>
     </p>
     <p >
 	<label for="Email">E-mail:</label>
-	<input type="text" name="Email" size="35" class="campo"/>
+	<input type="text" name="Email" size="35" class="campo" value=<?=$Email ?>/>
     </p>
     <p >
 	<label for="Fone">Telefone:</label>
-	<input type="text" name="Fone" size="35" class="campo"/>
+	<input type="text" name="Fone" size="35" class="campo" value=<?=$Telefone ?>/>
     </p>
     <p >
 	<label for="CNPJ">CNPJ/CPF:</label>
-	<input type="text" name="Cnpj" size="35" class="campo"/>
+	<input type="text" name="Cnpj" size="35" class="campo"value=<?=$Cnpj ?>/>
     </p>
     <p >
 	<input type="submit" name="Enviar" value="Enviar" />

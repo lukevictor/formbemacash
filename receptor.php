@@ -14,5 +14,6 @@ $sEstado   = $_GET['sEstado'];
 $sCEP      = $_GET['sCep'];
 $sTelefone = $_GET['sFone'];
 $sEmail    = $_GET['sEmail'];
+$sCnpj     = $_GET['sCnpj'];
 
 ?>

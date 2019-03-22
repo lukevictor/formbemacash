@@ -1,7 +1,6 @@
 <?php 
-require 'receptor.php';
 
-function montaConteudo() {
+function montaConteudo($nome, $telefone, $email, $cnpj, $sNome, $sTelefone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro) {
 
     $respostaHTML  = "<p> Informações enviadas pelo formulário de contato do FIRST (Série 1) </p>";
     $respostaHTML = $respostaHTML . "<p>Este cliente está interessado em saber mais sobre o Bemacash Gestão</p>";

@@ -32,6 +32,7 @@
 	<input type="text" name="cnpj" size="35" class="campo"value=<?=$cnpj ?>>
     </p>
     <p >
+    <input type="hidden" name="sCnpj" size="35" class="campo"value=<?=$sCnpj ?>>
 	<button type="submit"/> Enviar </button>
     </p>
 </form>

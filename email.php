@@ -26,6 +26,14 @@ $mail->Port = 465;
 $mail->SMTPAutoTLS = false;
 
 $mail->SMTPSecure = 'ssl';
+
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
  
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;

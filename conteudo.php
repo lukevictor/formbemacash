@@ -1,7 +1,7 @@
 <?php 
 
 
-function montaConteudo($nome, $telefone, $email, $cnpj) {
+function montaConteudo($nome, $telefone, $email, $cnpj, $sNome, $sTelefone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro) {
 
     $respostaHTML  = "<p> Informações enviadas pelo formulário de contato do FIRST (Série 1) </p>";
     $respostaHTML = $respostaHTML . "<p>Este cliente está interessado em saber mais sobre o Bemacash Gestão</p>";
@@ -18,6 +18,10 @@ function montaConteudo($nome, $telefone, $email, $cnpj) {
     $respostaHTML = $respostaHTML . '<p> Telefone Comercial: ' . $sTelefone . '</p>';
     $respostaHTML = $respostaHTML . '<p> Email Comercial: ' .    $sEmail .    '</p>';
     $respostaHTML = $respostaHTML . '<p> CNPJ: ' .               $sCnpj .     '</p>';
+    $respostaHTML = $respostaHTML . '<p> CEP: ' .                $sCep .      '</p>';
+    $respostaHTML = $respostaHTML . '<p> Bairro: ' .             $sBairro .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Cidade: ' .             $sCidade .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Estado: ' .             $sEstado .   '</p>';
 
     return $respostaHTML;
 }

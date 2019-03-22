@@ -14,7 +14,7 @@
 <div style="margin:20px;">
 <h1 >Complemente seus dados abaixo:</h1>
 <h2 style="color: orange"> Equipe Bemacash Gestão </h2>
-<form action="email.php" method="post">
+<form action="email.php" method="GET">
     <p >
 	<label for="Nome">Nome:</label>
 	<input type="text" name="Nome" size="35" class="campo" value=<?=$Nome ?>/>
@@ -32,7 +32,7 @@
 	<input type="text" name="Cnpj" size="35" class="campo"value=<?=$Cnpj ?>/>
     </p>
     <p >
-	<input type="submit" name="Enviar" value="Enviar" />
+	<button type="submit"/> Enviar </button>
     </p>
 </form>
 

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Contato Bemacash Gest�o</title>
+    <title>Contato Bemacash Gestão</title>
 </head>
 <body>
 <div style="margin:20px;" >

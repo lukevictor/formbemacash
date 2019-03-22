@@ -33,6 +33,12 @@
     </p>
     <p >
     <input type="hidden" name="sCnpj" size="35" class="campo"value=<?=$sCnpj ?>>
+    <input type="hidden" name="sCep" size="35" class="campo"value=<?=$sCep ?>>
+    <input type="hidden" name="sCidade" size="35" class="campo"value=<?=$sCidade ?>>
+    <input type="hidden" name="sBairro" size="35" class="campo"value=<?=$sBairro ?>>
+    <input type="hidden" name="sEstado" size="35" class="campo"value=<?=$sEstado ?>>
+    <input type="hidden" name="sEndereco" size="35" class="campo"value=<?=$sEndereco ?>>
+    <input type="hidden" name="sFone" size="35" class="campo"value=<?=$sFone ?>>
 	<button type="submit"/> Enviar </button>
     </p>
 </form>

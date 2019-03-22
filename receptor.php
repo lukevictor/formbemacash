@@ -8,6 +8,7 @@ $cnpj  = $_GET['cnpj'];
 
 //Informações do sistema recebidas de forma oculta
 $sNome     = $_GET['sNome'];
+$sEndereco = $_GET['sEndereco'];
 $sBairro   = $_GET['sBairro'];
 $sCidade   = $_GET['sCidade'];
 $sEstado   = $_GET['sEstado'];

@@ -40,6 +40,7 @@
     <input type="hidden" name="sEndereco" value=<?=$sEndereco ?>>
     <input type="hidden" name="sFone"         value=<?=$sFone ?>>
     <input type="hidden" name="sNome"         value=<?=$sNome ?>>
+    <input type="hidden" name="sEmail"        value=<?=$sEmail ?>>
 	<button type="submit"/> Enviar </button>
     </p>
 </form>

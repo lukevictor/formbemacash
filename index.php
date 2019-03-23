@@ -39,7 +39,7 @@
     <input type="hidden" name="sEstado"     value=<?=$sEstado ?>>
     <input type="hidden" name="sEndereco" value=<?=$sEndereco ?>>
     <input type="hidden" name="sFone"         value=<?=$sFone ?>>
-    <input type="hidden" name="sFone"         value=<?=$sNome ?>>
+    <input type="hidden" name="sNome"         value=<?=$sNome ?>>
 	<button type="submit"/> Enviar </button>
     </p>
 </form>

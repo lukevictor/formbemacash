@@ -14,10 +14,10 @@ function montaConteudo($nome, $telefone, $email, $cnpj, $sNome, $sTelefone, $sEm
 
     $respostaHTML = $respostaHTML . '<h3> Informações contidas no sistema (FIRST) </h3>';
     $respostaHTML = $respostaHTML . '<p> Empresa: ' .            $sNome .     '</p>';
-    $respostaHTML = $respostaHTML . '<p> Telefone Comercial: ' . $sTelefone . '</p>';
+    $respostaHTML = $respostaHTML . '<p> Telefone Comercial: ' . $sFone     . '</p>';
     $respostaHTML = $respostaHTML . '<p> Email Comercial: ' .    $sEmail .    '</p>';
     $respostaHTML = $respostaHTML . '<p> CNPJ: ' .               $sCnpj .     '</p>';
-    $respostaHTML = $respostaHTML . '<p> Endereco: ' .           $sEndereco .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Endereco: ' .           $sEndereco . '</p>';
     $respostaHTML = $respostaHTML . '<p> CEP: ' .                $sCep .      '</p>';
     $respostaHTML = $respostaHTML . '<p> Bairro: ' .             $sBairro .   '</p>';
     $respostaHTML = $respostaHTML . '<p> Cidade: ' .             $sCidade .   '</p>';

@@ -13,7 +13,7 @@ $sBairro   = $_GET['sBairro'];
 $sCidade   = $_GET['sCidade'];
 $sEstado   = $_GET['sEstado'];
 $sCep      = $_GET['sCep'];
-$sTelefone = $_GET['sFone'];
+$sFone     = $_GET['sFone'];
 $sEmail    = $_GET['sEmail'];
 $sCnpj     = $_GET['sCnpj'];
 

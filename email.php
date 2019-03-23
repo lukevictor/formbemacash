@@ -48,11 +48,11 @@ $mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Set who the message is to be sent to
 $mail->addAddress('lucas.victor@totvs.com', 'Lucas Victor');
 //Set the subject line
-$mail->Subject = 'Contato First (Série 1)';
+$mail->Subject = 'Contato First (Serie 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //
-$respostaHTML = montaConteudo($nome, $fone, $email, $cnpj,$sNome, $sTelefone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro, $sEndereco);
+$respostaHTML = montaConteudo($nome, $fone, $email, $cnpj,$sNome, $sFone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro, $sEndereco);
 
 $mail->msgHTML($respostaHTML, __DIR__);
 //Replace the plain text body with one created manually

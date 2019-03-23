@@ -32,13 +32,14 @@
 	<input type="text" name="cnpj" size="35" class="campo"value=<?=$cnpj ?>>
     </p>
     <p >
-    <input type="hidden" name="sCnpj" size="35" class="campo"value=<?=$sCnpj ?>>
-    <input type="hidden" name="sCep" size="35" class="campo"value=<?=$sCep ?>>
-    <input type="hidden" name="sCidade" size="35" class="campo"value=<?=$sCidade ?>>
-    <input type="hidden" name="sBairro" size="35" class="campo"value=<?=$sBairro ?>>
-    <input type="hidden" name="sEstado" size="35" class="campo"value=<?=$sEstado ?>>
-    <input type="hidden" name="sEndereco" size="35" class="campo"value=<?=$sEndereco ?>>
-    <input type="hidden" name="sFone" size="35" class="campo"value=<?=$sFone ?>>
+    <input type="hidden" name="sCnpj"         value=<?=$sCnpj ?>>
+    <input type="hidden" name="sCep"           value=<?=$sCep ?>>
+    <input type="hidden" name="sCidade"     value=<?=$sCidade ?>>
+    <input type="hidden" name="sBairro"     value=<?=$sBairro ?>>
+    <input type="hidden" name="sEstado"     value=<?=$sEstado ?>>
+    <input type="hidden" name="sEndereco" value=<?=$sEndereco ?>>
+    <input type="hidden" name="sFone"         value=<?=$sFone ?>>
+    <input type="hidden" name="sFone"         value=<?=$sNome ?>>
 	<button type="submit"/> Enviar </button>
     </p>
 </form>

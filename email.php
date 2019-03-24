@@ -2,9 +2,9 @@
 
 //Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
+require 'receptor.php';
 require 'vendor/autoload.php';
 require 'conteudo.php';
-require 'receptor.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -52,7 +52,7 @@ $mail->Subject = 'Contato First (Serie 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //
-$respostaHTML = montaConteudo($nome, $fone, $email, $cnpj,$sNome, $sFone, $sEmail, $sCnpj, $sCep, $sCidade, $sEstado, $sBairro, $sEndereco);
+$respostaHTML = montaConteudo();
 
 $mail->msgHTML($respostaHTML, __DIR__);
 //Replace the plain text body with one created manually

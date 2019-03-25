@@ -53,9 +53,11 @@
         </form>
     </div>
 </div>
+<div class="col s9">
+    <p>TOTVS 2019</p>
+</div>
 
 
-TOTVS 2019
 </div>
 <script type="text/javascript" src="js/validador.js"></script>
 </body>

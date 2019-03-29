@@ -56,6 +56,5 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/validador.js"></script>
 </body>
 </html>

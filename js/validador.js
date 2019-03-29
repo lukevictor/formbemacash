@@ -7,7 +7,7 @@ function checkForm() {
     if (nome == '' || email == '' || fone == '' || cnpj == '') {
         alert("Por favor preencha todos os campos.");
         return false;
-    } else { */
+    } else { */ 
         document.getElementById("contatoBemacash").submit();
         return true;
     //}

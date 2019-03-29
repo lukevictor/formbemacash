@@ -4,7 +4,7 @@
 $nome  = $_GET['nome'];
 $fone  = $_GET['fone'];
 $email = $_GET['email'];
-$cnpj  = $_GET['cnpj'];
+//$cnpj  = $_GET['cnpj'];
 
 //Informações do sistema recebidas de forma oculta
 $sNome     = $_GET['sNome'];

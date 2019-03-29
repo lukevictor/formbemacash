@@ -33,10 +33,10 @@
                 <label for="Fone">Telefone:</label>
                 <input type="text" name="fone" id ="fone" size="35" class="campo" value=<?=$fone ?>>
                 </p>
-                <p >
+                <!--<p >
                 <label for="CNPJ">CNPJ/CPF:</label>
                 <input type="text" name="cnpj" id="cnpj" size="35" class="campo"value=<?=$cnpj ?>>
-                </p>
+                </p>-->
                 <p >
                 <input type="hidden" name="sCnpj"     value=<?=$sCnpj ?>>
                 <input type="hidden" name="sCep"      value=<?=$sCep ?>>

@@ -9,7 +9,7 @@ function montaConteudo() {
     $respostaHTML = $respostaHTML . '<p> Nome: ' .     $_GET['nome'] . '</p>';
     $respostaHTML = $respostaHTML . '<p> Telefone: ' . $_GET['fone'] . '</p>';
     $respostaHTML = $respostaHTML . '<p> Email: ' .    $_GET['email'] .'</p>';
-    $respostaHTML = $respostaHTML . '<p> CNPJ: ' .     $_GET['cnpj'] . '</p>';
+    //$respostaHTML = $respostaHTML . '<p> CNPJ: ' .     $_GET['cnpj'] . '</p>';
 
 
     $respostaHTML = $respostaHTML . '<h3> Informações contidas no sistema (FIRST) </h3>';

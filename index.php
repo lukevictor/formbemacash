@@ -47,7 +47,7 @@
                 <input type="hidden" name="sFone"     value=<?=$sFone ?>>
                 <input type="hidden" name="sNome"     value=<?=$sNome ?>>
                 <input type="hidden" name="sEmail"    value=<?=$sEmail ?>>
-                <input type="button" onClick="checkForm();" value="Enviar">
+                <button type="submit">Enviar</button>
                 </p>
             </form>
         </div>

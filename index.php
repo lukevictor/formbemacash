@@ -16,10 +16,14 @@
             font-size: 30px;
             padding-bottom: 7px;
             padding-top: 7px;
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
         }
     </style>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
 </head>
 <body>
 <div style="margin:20px;">

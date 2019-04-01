@@ -27,11 +27,10 @@
 <body>
 <div style="margin:20px;">
     <div class="row">
-        <div class="col s9">
+        <div class="col s12">
             <h4 >Complemente seus dados abaixo:</h4>
-            <h5 style="color: #fd7e14"> Equipe Bemacash Gestão Financeira </h5>
         </div>
-        <div class="col s6">
+        <div class="col s9">
             <form action="email.php" method="GET" id="contatoBemacash">
                 <p >
                 <p for="Nome">Nome:</p>
@@ -64,6 +63,7 @@
             </form>
         </div>
         <div class="col s9">
+            <h5 style="color: #fd7e14"> Equipe Bemacash Gestão Financeira </h5>
             <p>TOTVS 2019</p>
         </div>
     </div>

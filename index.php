@@ -28,8 +28,8 @@
 <div style="margin:20px;">
     <div class="row">
         <div class="col s9">
-            <h3 >Complemente seus dados abaixo:</h1>
-            <h4 style="color: #fd7e14"> Equipe Bemacash Gestão Financeira </h2>
+            <h4 >Complemente seus dados abaixo:</h4>
+            <h5 style="color: #fd7e14"> Equipe Bemacash Gestão Financeira </h5>
         </div>
         <div class="col s6">
             <form action="email.php" method="GET" id="contatoBemacash">

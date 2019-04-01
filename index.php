@@ -14,8 +14,8 @@
             border-radius: 18px;
             color: #FFFFFF;
             font-size: 30px;
-            padding: 7px;
-
+            padding-bottom: 7px;
+            padding-top: 7px;
         }
     </style>
     <!-- Compiled and minified CSS -->

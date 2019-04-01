@@ -6,7 +6,14 @@
     <style>
         .campo {
             margin-left:20px;
-            color: orange;
+            color: #fd7e14;
+        }
+        .botao {
+            background-color: #fd7e14;
+            border: none;
+            border-radius: 20%;
+            color: #FFFFFF;
+            font-size: 30px;
         }
     </style>
     <!-- Compiled and minified CSS -->
@@ -17,24 +24,24 @@
     <div class="row">
         <div class="col s9">
             <h3 >Complemente seus dados abaixo:</h1>
-            <h4 style="color: orange"> Equipe Bemacash Gestão </h2>
+            <h4 style="color: orange"> Equipe Bemacash Gestão Financeira </h2>
         </div>
         <div class="col s6">
             <form action="email.php" method="GET" id="contatoBemacash">
                 <p >
-                <label for="Nome">Nome:</label>
+                <p for="Nome">Nome:</p>
                 <input type="text" name="nome" id="nome" size="35" class="campo" value=<?=$nome ?>>
                 </p>
                 <p >
-                <label for="Email">E-mail:</label>
+                <p for="Email">E-mail:</p>
                 <input type="text" name="email" id="email" size="35" class="campo" value=<?=$email ?>>
                 </p>
                 <p >
-                <label for="Fone">Telefone:</label>
+                <p for="Fone">Telefone:</p>
                 <input type="text" name="fone" id ="fone" size="35" class="campo" value=<?=$fone ?>>
                 </p>
                 <!--<p >
-                <label for="CNPJ">CNPJ/CPF:</label>
+                <p for="CNPJ">CNPJ/CPF:</p>
                 <input type="text" name="cnpj" id="cnpj" size="35" class="campo"value=<?=$cnpj ?>>
                 </p>-->
                 <p >
@@ -47,7 +54,7 @@
                 <input type="hidden" name="sFone"     value=<?=$sFone ?>>
                 <input type="hidden" name="sNome"     value=<?=$sNome ?>>
                 <input type="hidden" name="sEmail"    value=<?=$sEmail ?>>
-                <button type="submit">Enviar</button>
+                <button type="submit" class="botao">Enviar</button>
                 </p>
             </form>
         </div>

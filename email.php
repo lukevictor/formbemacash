@@ -46,11 +46,13 @@ $mail->setFrom('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Set an alternative reply-to address
 $mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Set who the message is to be sent to
-$mail->addAddress('lucas.victor@totvs.com.br', 'Lucas Victor');
-//
+$mail->addAddress('tassia.costa@totvs.com.br', 'Tassia Costa');
+//Wilson
 $mail->addCC('wilson.tedokon@totvs.com.br');
-//
+//Fraga
 $mail->addCC('rafael.fraga@totvs.com.br');
+//Tassia
+$mail->addCC('lucas.victor@totvs.com.br');
 //Set the subject line
 $mail->Subject = 'Contato First (Serie 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,

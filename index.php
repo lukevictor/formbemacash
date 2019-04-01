@@ -11,9 +11,11 @@
         .botao {
             background-color: #fd7e14;
             border: none;
-            border-radius: 20%;
+            border-radius: 18px;
             color: #FFFFFF;
             font-size: 30px;
+            padding: 7px;
+
         }
     </style>
     <!-- Compiled and minified CSS -->
@@ -24,7 +26,7 @@
     <div class="row">
         <div class="col s9">
             <h3 >Complemente seus dados abaixo:</h1>
-            <h4 style="color: orange"> Equipe Bemacash Gestão Financeira </h2>
+            <h4 style="color: #fd7e14"> Equipe Bemacash Gestão Financeira </h2>
         </div>
         <div class="col s6">
             <form action="email.php" method="GET" id="contatoBemacash">

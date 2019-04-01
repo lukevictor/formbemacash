@@ -14,7 +14,7 @@
             border-radius: 18px;
             color: #FFFFFF;
             font-size: 30px;
-            padding: 2px;
+            padding: 7px;
             -moz-border-radius: 15px;
             -webkit-border-radius: 15px;
             border-radius: 15px;

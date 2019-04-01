@@ -49,6 +49,8 @@ $mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 $mail->addAddress('lucas.victor@totvs.com.br', 'Lucas Victor');
 //
 $mail->addCC('wilson.tedokon@totvs.com.br');
+//
+$mail->addCC('rafael.fraga@totvs.com.br');
 //Set the subject line
 $mail->Subject = 'Contato First (Serie 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,

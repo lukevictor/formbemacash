@@ -6,6 +6,7 @@ require 'receptor.php';
 require 'vendor/autoload.php';
 require 'conteudo.php';
 
+
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 //Tell PHPMailer to use SMTP

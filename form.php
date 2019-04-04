@@ -4,11 +4,7 @@
       <div class="screen-reader-response"></div>
       <form action="email.php" method="GET" class="wpcf7-form" novalidate="novalidate">
       <div style="display: none;"> 
-        <input type="hidden" name="_wpcf7" value="781" /> 
-        <input type="hidden" name="_wpcf7_version" value="5.0.5" /> 
-        <input type="hidden" name="_wpcf7_locale" value="pt_BR" /> 
-        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f781-o1" /> 
-        <input type="hidden" name="_wpcf7_container_post" value="0" />
+
         <input type="hidden" name="sCnpj"     value=<?=$sCnpj ?>>
         <input type="hidden" name="sCep"      value=<?=$sCep ?>>
         <input type="hidden" name="sCidade"   value=<?=$sCidade ?>>

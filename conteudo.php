@@ -13,15 +13,15 @@ function montaConteudo() {
 
 
     $respostaHTML = $respostaHTML . '<h3> Informações contidas no sistema (FIRST) </h3>';
-    $respostaHTML = $respostaHTML . '<p> Empresa: ' .            $_GET['sNome'] .     '</p>';
-    $respostaHTML = $respostaHTML . '<p> Telefone Comercial: ' . $_GET['sFone']     . '</p>';
-    $respostaHTML = $respostaHTML . '<p> Email Comercial: ' .    $_GET['sEmail'] .    '</p>';
-    $respostaHTML = $respostaHTML . '<p> CNPJ: ' .               $_GET['sCnpj'] .     '</p>';
-    $respostaHTML = $respostaHTML . '<p> Endereco: ' .           $_GET['sEndereco'] . '</p>';
-    $respostaHTML = $respostaHTML . '<p> CEP: ' .                $_GET['sCep'] .      '</p>';
-    $respostaHTML = $respostaHTML . '<p> Bairro: ' .             $_GET['sBairro'] .   '</p>';
-    $respostaHTML = $respostaHTML . '<p> Cidade: ' .             $_GET['sCidade'] .   '</p>';
-    $respostaHTML = $respostaHTML . '<p> Estado: ' .             $_GET['sEstado'] .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Empresa: ' .            str_replace('_', ' ', $_GET['sNome']) .     '</p>';
+    $respostaHTML = $respostaHTML . '<p> Telefone Comercial: ' . str_replace('_', ' ', $_GET['sFone'])     . '</p>';
+    $respostaHTML = $respostaHTML . '<p> Email Comercial: ' .                          $_GET['sEmail'] .    '</p>';
+    $respostaHTML = $respostaHTML . '<p> CNPJ: ' .               str_replace('_', ' ', $_GET['sCnpj']) .     '</p>';
+    $respostaHTML = $respostaHTML . '<p> Endereco: ' .           str_replace('_', ' ', $_GET['sEndereco']) . '</p>';
+    $respostaHTML = $respostaHTML . '<p> CEP: ' .                str_replace('_', ' ', $_GET['sCep']) .      '</p>';
+    $respostaHTML = $respostaHTML . '<p> Bairro: ' .             str_replace('_', ' ', $_GET['sBairro']) .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Cidade: ' .             str_replace('_', ' ', $_GET['sCidade']) .   '</p>';
+    $respostaHTML = $respostaHTML . '<p> Estado: ' .             str_replace('_', ' ', $_GET['sEstado']) .   '</p>';
 
     return $respostaHTML;
 }

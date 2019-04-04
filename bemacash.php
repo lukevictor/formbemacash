@@ -50,7 +50,6 @@ class="fa fa-youtube-play"></i></a></li></ul></div></div></div> </footer><!-- Mo
             var href = window.location.href.split("?")[0];
             var pages = window.bloginfo;
 
-
         }, false);</script> <script type="text/javascript">if(!navigator.userAgent.match(/nux.*oto\sG|x11.*fox\/54|x11.*ome\/39|x11.*ome\/62|oid\s6.*1.*xus\s5.*MRA58N.*ome|JWR66Y.*ome\/62|woobot|speed|ighth|tmetr|eadle/i)){loadAsync('https://bemacash.com.br/wp-content/themes/bemacash-new/assets/js/lib/bootstrap.min.js', null);}</script><script defer type="text/javascript">if(navigator.userAgent.match(/nux.*oto\sG|x11.*fox\/54|x11.*ome\/39|x11.*ome\/62|oid\s6.*1.*xus\s5.*MRA58N.*ome|JWR66Y.*ome\/62|woobot|speed|ighth|tmetr|eadle/i)){document.write("<script defer defer type='text\/javascript' src='https:\/\/bemacash.com.br\/wp-content\/themes\/bemacash-new\/assets\/js\/lib\/bootstrap.min.js'><\/script>");}else{document.write("<script defer type='text\/javascript' src='https:\/\/bemacash.com.br\/wp-content\/themes\/bemacash-new\/assets\/js\/lib\/bootstrap.min.js'><\/script>");}</script><script type='text/javascript'>/*  */
 var countVars = {"disqusShortname":"bemacash-1"};
 var bloginfo = {"home":"https:\/\/bemacash.com.br","pdv":"https:\/\/bemacash.com.br\/pdv-frente-de-caixa","gestao":"https:\/\/bemacash.com.br\/gestao-financeira","maquininha":"https:\/\/bemacash.com.br\/maquininha-inteligente","slug":"gestao-financeira"};

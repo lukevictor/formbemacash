@@ -1,9 +1,9 @@
 <?php 
 
 //Informações repassadas pelo cliente
-$nome  = $_GET['nome'];
-$fone  = $_GET['fone'];
-$email = $_GET['email'];
+$nome  = $_GET['your-name'];
+$fone  = $_GET['your-phone'];
+$email = $_GET['your-email'];
 //$cnpj  = $_GET['cnpj'];
 
 //Informações do sistema recebidas de forma oculta

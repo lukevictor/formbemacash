@@ -2,7 +2,7 @@
     <div class="modal-form">
      <div role="form" class="wpcf7" id="wpcf7-f781-o1" lang="pt-BR" dir="ltr">
       <div class="screen-reader-response"></div>
-      <form action="/email.php" method="GET" class="wpcf7-form" novalidate="novalidate">
+      <form action="email.php" method="GET" class="wpcf7-form" novalidate="novalidate">
       <div style="display: none;"> 
         <input type="hidden" name="_wpcf7" value="781" /> 
         <input type="hidden" name="_wpcf7_version" value="5.0.5" /> 
@@ -24,13 +24,13 @@
       <div class="form-group col-md-12"> 
       <label for="name"><br /> Nome completo <span> (obrigatório) </span><br /> </label><br /> 
       <span class="wpcf7-form-control-wrap your-name">
-      <input type="text" name="nome" value="<?=$nome ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="name" aria-required="true" aria-invalid="false" placeholder="Nome completo" /></span>
+      <input type="text" name="your-name" value="<?=$nome ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="name" aria-required="true" aria-invalid="false" placeholder="Nome completo" /></span>
       </div>
       <div class="form-group col-md-12"> 
       <label for="email"><br /> E-mail para contato <span> (obrigatório) </span><br /> </label>
       <br /> 
       <span class="wpcf7-form-control-wrap your-email">
-      <input type="email" name="email" value="<?=$email ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false" placeholder="E-mail" />
+      <input type="email" name="your-email" value="<?=$email ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false" placeholder="E-mail" />
       </span>
       </div>
       <div class="form-group col-md-12"> 
@@ -39,10 +39,10 @@
       <br /> </label>
       <br /> 
       <span class="wpcf7-form-control-wrap your-phone">
-      <input type="text" name="fone" value="<?=$fone ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="phone" aria-required="true" aria-invalid="false" placeholder="Telefone" /></span>
+      <input type="text" name="your-phone" value="<?=$fone ?>" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="phone" aria-required="true" aria-invalid="false" placeholder="Telefone" /></span>
       </div>
       <p> 
-      <input type="submit" value="Receba nossa ligação" class="wpcf7-form-control wpcf7-submit button __big" /></p>
+      <button type="submit" class="wpcf7-form-control wpcf7-submit button __big" />Receba nossa ligação</button></p>
       </div>
       <div class="wpcf7-response-output wpcf7-display-none">
       </div>

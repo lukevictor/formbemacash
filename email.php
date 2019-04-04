@@ -52,7 +52,7 @@ $mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //Fraga
 //$mail->addCC('rafael.fraga@totvs.com.br');
 //Tassia
-$mail->addAddress('lucas.victor@totvs.com.br');
+$mail->addAddress('lucas.victor@totvs.com.br', 'Lucas da Cunha');
 //Set the subject line
 $mail->Subject = 'Contato First (Serie 1)';
 //Read an HTML message body from an external file, convert referenced images to embedded,
@@ -69,7 +69,7 @@ $mail->AltBody = $nome;
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    header('Location: /obrigado.php');
+    header('Location: /bemacash.php/sucesso');
 }
 //Section 2: IMAP
 //IMAP commands requires the PHP IMAP Extension, found at: https://php.net/manual/en/imap.setup.php

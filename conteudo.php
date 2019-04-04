@@ -6,9 +6,9 @@ function montaConteudo() {
     $respostaHTML = $respostaHTML . "<p>Este cliente está interessado em saber mais sobre o Bemacash Gestão</p>";
 
     $respostaHTML = $respostaHTML . '<h3> Informações repassadas pelo cliente: </h3>';
-    $respostaHTML = $respostaHTML . '<p> Nome: ' .     $_GET['nome'] . '</p>';
-    $respostaHTML = $respostaHTML . '<p> Telefone: ' . $_GET['fone'] . '</p>';
-    $respostaHTML = $respostaHTML . '<p> Email: ' .    $_GET['email'] .'</p>';
+    $respostaHTML = $respostaHTML . '<p> Nome: ' .     $_GET['your-name'] . '</p>';
+    $respostaHTML = $respostaHTML . '<p> Telefone: ' . $_GET['your-phone'] . '</p>';
+    $respostaHTML = $respostaHTML . '<p> Email: ' .    $_GET['your-email'] .'</p>';
     //$respostaHTML = $respostaHTML . '<p> CNPJ: ' .     $_GET['cnpj'] . '</p>';
 
 

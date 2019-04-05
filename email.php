@@ -70,7 +70,7 @@ $mail->AltBody = $nome;
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    header('Location: /bemacash.php/sucesso');
+    header('Location: /sucesso');
 }
 //Section 2: IMAP
 //IMAP commands requires the PHP IMAP Extension, found at: https://php.net/manual/en/imap.setup.php

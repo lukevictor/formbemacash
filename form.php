@@ -5,15 +5,15 @@
       <form action="email.php" method="GET" class="wpcf7-form" novalidate="novalidate">
       <div style="display: none;"> 
 
-        <input type="hidden" name="sCnpj"     value=<?=$sCnpj ?>>
-        <input type="hidden" name="sCep"      value=<?=$sCep ?>>
-        <input type="hidden" name="sCidade"   value=<?=$sCidade ?>>
-        <input type="hidden" name="sBairro"   value=<?=$sBairro ?>>
-        <input type="hidden" name="sEstado"   value=<?=$sEstado ?>>
-        <input type="hidden" name="sEndereco" value=<?=$sEndereco ?>>
-        <input type="hidden" name="sFone"     value=<?=$sFone ?>>
-        <input type="hidden" name="sNome"     value=<?=$sNome ?>>
-        <input type="hidden" name="sEmail"    value=<?=$sEmail ?>>
+        <input type="hidden" name="sCnpj"     value="<?=$sCnpj ?>">
+        <input type="hidden" name="sCep"      value="<?=$sCep ?>">
+        <input type="hidden" name="sCidade"   value="<?=$sCidade ?>">
+        <input type="hidden" name="sBairro"   value="<?=$sBairro ?>">
+        <input type="hidden" name="sEstado"   value="<?=$sEstado ?>">
+        <input type="hidden" name="sEndereco" value="<?=$sEndereco ?>">
+        <input type="hidden" name="sFone"     value="<?=$sFone ?>">
+        <input type="hidden" name="sNome"     value="<?=$sNome ?>">
+        <input type="hidden" name="sEmail"    value="<?=$sEmail ?>">
       </div>
       <h3 class="form-title" style="font-size: 34px"> Dê mais este passo para o crescimento do <br/> seu negócio, preencha abaixo ou ligue para 0800 718 6887.<br /></h3>
       <div class="form-row">

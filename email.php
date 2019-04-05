@@ -70,7 +70,7 @@ $mail->AltBody = $nome;
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    header('Location: /sucesso');
+    header('Location: /index.php?sucesso="true"');
 }
 //Section 2: IMAP
 //IMAP commands requires the PHP IMAP Extension, found at: https://php.net/manual/en/imap.setup.php

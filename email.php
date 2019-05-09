@@ -24,7 +24,7 @@ $mail->Host = 'smtp.gmail.com';
 //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
 $mail->Port = 465;
 //Set the encryption system to use - ssl (deprecated) or tls
-$mail->SMTPAutoTLS = false;
+$mail->SMTPAutoTLS = true;
 
 $mail->SMTPSecure = 'ssl';
 

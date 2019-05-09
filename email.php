@@ -87,3 +87,4 @@ function save_mail($mail)
     imap_close($imapStream);
     return $result;
 }
+

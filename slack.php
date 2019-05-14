@@ -9,7 +9,8 @@ $json = file_get_contents('php://input');
 if (strpos(json_decode($json), ':1,')) {
     $ch = curl_init('https://hooks.slack.com/services/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');
 } else {
-    $ch = curl_init('https://URL SERÁ Criada');
+    $json = json_encode('{"Text":"Entrou na segunda URL"}');
+    $ch = curl_init('https://hooks.slack.com/services/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');
 }
 
 curl_setopt_array($ch, [

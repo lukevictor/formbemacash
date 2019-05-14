@@ -6,7 +6,7 @@ $json = file_get_contents('php://input');
 
 //$json = json_encode($array);
 
-if (strpos(json_decode($json), '"tipo":1')) {
+if (strpos(json_decode($json), ':1,')) {
     $ch = curl_init('https://hooks.slack.com/services/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');
 } else {
     $ch = curl_init('https://URL SERÁ Criada');

@@ -14,7 +14,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 
     'Content-Type: application/json',
@@ -24,7 +23,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 );
 
 $jsonRet = json_decode(curl_exec($ch));
-
 
 echo('Teste muito louco:' . $jsonRet);
 

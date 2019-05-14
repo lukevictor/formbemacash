@@ -24,6 +24,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 
 $jsonRet = json_decode(curl_exec($ch));
 
-echo('Conteúdo:' . json_decode($json));
+echo('Conteúdo:' . $json);
 
 ?>

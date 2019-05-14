@@ -24,6 +24,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 
 $jsonRet = json_decode(curl_exec($ch));
 
-echo('Teste muito louco:' . $jsonRet);
+echo('Teste muito louco:' . json_decode($json));
 
 ?>

@@ -1,9 +1,10 @@
 <?php 
 
+$json = file_get_contents('php://input');
 
-$array = array("text" => "Teste Slack");
+//$array = array("text" => "Teste Slack");
 
-$json = json_encode($array);
+//$json = json_encode($array);
 
 $ch = curl_init('https://hooks.slack.com/services/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');
 

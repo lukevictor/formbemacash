@@ -57,8 +57,10 @@ $mail->addReplyTo('bema20192@gmail.com', 'Equipe Bemacash');
 //$mail->addCC('rafael.fraga@totvs.com.br');
 //Tassia
 $mail->addAddress('lucas.victor@totvs.com.br', 'Lucas da Cunha');
+
+$mail->addAddress('luan.silva@totvs.com.br', 'Luan Silva');
 //Set the subject line
-$mail->Subject = 'Contato First (Serie 1)';
+$mail->Subject = 'Contato First (Serie 1) - ' . $_GET['sCnpj'];
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //

@@ -42,13 +42,13 @@ $mail->SMTPOptions = array(
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "bemacashgestao2019@gmail.com";
+$mail->Username = "bema20192@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "bema2019";
+$mail->Password = "bemacash2019@";
 //Set who the message is to be sent from
-$mail->setFrom('bemacashgestao2019@gmail.com', 'Equipe Bemacash');
+$mail->setFrom('bema20192@gmail.com', 'Equipe Bemacash');
 //Set an alternative reply-to address
-$mail->addReplyTo('bemacashgestao2019@gmail.com', 'Equipe Bemacash');
+$mail->addReplyTo('bema20192@gmail.com', 'Equipe Bemacash');
 //Set who the message is to be sent to
 //$mail->addAddress('tassia.costa@totvs.com.br', 'Tassia Costa');
 //Wilson

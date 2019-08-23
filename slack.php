@@ -6,7 +6,7 @@ $json = file_get_contents('php://input');
 
 //$json = json_encode($array);
 
-$ch = curl_init('https://hooks.slack.com/services/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');
+$ch = curl_init('https://hooks.slack.com/services/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');
 
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 

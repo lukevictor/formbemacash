@@ -6,6 +6,9 @@ require 'receptor.php';
 require 'vendor/autoload.php';
 require 'conteudo.php';
 
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: PUT, GET, POST");
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -24,7 +27,7 @@ $mail->Host = 'smtp.gmail.com';
 //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
 $mail->Port = 465;
 //Set the encryption system to use - ssl (deprecated) or tls
-$mail->SMTPAutoTLS = false;
+$mail->SMTPAutoTLS = true;
 
 $mail->SMTPSecure = 'ssl';
 
@@ -39,13 +42,13 @@ $mail->SMTPOptions = array(
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "bemagestao2019@gmail.com";
+$mail->Username = "bema20192@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "gestao2019";
+$mail->Password = "bemacash2019@";
 //Set who the message is to be sent from
-$mail->setFrom('bemagestao2019@gmail.com', 'Equipe Bemacash');
+$mail->setFrom('bema20192@gmail.com', 'Equipe Bemacash');
 //Set an alternative reply-to address
-$mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
+$mail->addReplyTo('bema20192@gmail.com', 'Equipe Bemacash');
 //Set who the message is to be sent to
 //$mail->addAddress('tassia.costa@totvs.com.br', 'Tassia Costa');
 //Wilson
@@ -54,8 +57,10 @@ $mail->addReplyTo('bemagestao2019@gmail.com', 'Equipe Bemacash');
 //$mail->addCC('rafael.fraga@totvs.com.br');
 //Tassia
 $mail->addAddress('lucas.victor@totvs.com.br', 'Lucas da Cunha');
+
+$mail->addAddress('luan.silva@totvs.com.br', 'Luan Silva');
 //Set the subject line
-$mail->Subject = 'Contato First (Serie 1)';
+$mail->Subject = 'Contato First (Serie 1) - ' . $_GET['sCnpj'];
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 //
@@ -87,3 +92,4 @@ function save_mail($mail)
     imap_close($imapStream);
     return $result;
 }
+
